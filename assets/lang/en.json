@@ -1,11 +1,1 @@
-{
-  "nav.features": "Features",
-  "nav.how": "How it works",
-  "nav.plans": "Plans",
-  "nav.testimonials": "Testimonials",
-  "nav.getApp": "Get app",
-  "hero.title": "Transform your habits and reach your best self with Shape+",
-  "hero.subtitle": "Personalized plans, micro-habits and smart tracking. Sync with Apple Health and Google Fit.",
-  "hero.ctaPrimary": "Download now",
-  "hero.ctaSecondary": "See plans"
-}
+{"nav.features": "Features", "nav.how": "How it works", "nav.plans": "Plans", "nav.testimonials": "Testimonials", "nav.getApp": "Get app", "hero.title": "Transform your habits and reach your best self with Shape+", "hero.subtitle": "Personalized plans, micro-habits and smart tracking. Coming soon in the app.", "hero.ctaPrimary": "Get started", "hero.ctaSecondary": "See plans", "progress.title": "Track your progress", "progress.desc": "See weight, calories and goals in easy charts.", "plans.title": "Plans", "plans.subtitle": "Start free — upgrade for advanced features."}

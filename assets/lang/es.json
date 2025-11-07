@@ -1,11 +1,1 @@
-{
-  "nav.features": "Recursos",
-  "nav.how": "Cómo funciona",
-  "nav.plans": "Planes",
-  "nav.testimonials": "Testimonios",
-  "nav.getApp": "Descargar",
-  "hero.title": "Transforma tus hábitos y alcanza tu mejor versión con Shape+",
-  "hero.subtitle": "Planes personalizados, micro-hábitos y seguimiento inteligente. Sincroniza con Apple Health y Google Fit.",
-  "hero.ctaPrimary": "Descargar ahora",
-  "hero.ctaSecondary": "Ver planes"
-}
+{"nav.features": "Recursos", "nav.how": "Cómo funciona", "nav.plans": "Planes", "nav.testimonials": "Testimonios", "nav.getApp": "Descargar", "hero.title": "Transforma tus hábitos y alcanza tu mejor versión con Shape+", "hero.subtitle": "Planes personalizados, micro-hábitos y seguimiento inteligente. Próximamente en la app.", "hero.ctaPrimary": "Comenzar", "hero.ctaSecondary": "Ver planes", "progress.title": "Sigue tu progreso", "progress.desc": "Visualiza peso, calorías y metas en gráficos sencillos.", "plans.title": "Planes", "plans.subtitle": "Empieza gratis — actualiza para funciones avanzadas."}

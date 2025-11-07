@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
-  <defs>
-    <linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#4B7BEC"/><stop offset="1" stop-color="#A29BFE"/></linearGradient>
-  </defs>
-  <circle cx="90" cy="100" r="70" fill="url(#lg)"/>
-  <g transform="translate(40,30)" fill="#fff" opacity="0.95"><circle cx="60" cy="50" r="30"/><rect x="90" y="90" width="10" height="40" rx="5"/></g>
-  <text x="220" y="122" font-family="Poppins,Inter,Arial" font-weight="700" font-size="64" fill="#2C3E50">Shape<tspan fill="#55E6C1">+</tspan></text>
-</svg>
+<svg xmlns='http://www.w3.org/2000/svg' width='600' height='200'><defs><linearGradient id='g' x1='0' x2='1'><stop offset='0' stop-color='#2B6CE6'/><stop offset='1' stop-color='#8F7BFF'/></linearGradient></defs><circle cx='90' cy='100' r='70' fill='url(#g)'/><g transform='translate(40,30)' fill='#fff' opacity='0.95'><circle cx='60' cy='50' r='26'/><rect x='92' y='92' width='8' height='36' rx='4'/></g><text x='220' y='122' font-family='Poppins,Inter,Arial' font-weight='700' font-size='64' fill='#112131'>Shape<tspan fill='#55E6C1'>+</tspan></text></svg>

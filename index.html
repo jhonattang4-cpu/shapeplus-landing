@@ -1,0 +1,223 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shape+ — Perca peso de forma sustentável</title>
+  <meta name="description" content="Shape+: planos personalizados, micro-hábitos e acompanhamento inteligente." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="assets/logo.png" alt="Shape+ logo" class="logo" />
+        <span class="brand-name">Shape+</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#features" data-i18n="nav.features">Recursos</a>
+        <a href="#how-it-works" data-i18n="nav.how">Como funciona</a>
+        <a href="#pricing" data-i18n="nav.pricing">Planos</a>
+        <a href="#download" data-i18n="nav.download">Baixar</a>
+        <button class="btn btn-primary" id="downloadBtn" data-i18n="nav.getApp">Obter o app</button>
+      </nav>
+      <div class="controls">
+        <select id="langSelect" aria-label="Escolher idioma">
+          <option value="pt-BR">Português (BR)</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+        </select>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="#features" data-i18n="nav.features">Recursos</a>
+      <a href="#how-it-works" data-i18n="nav.how">Como funciona</a>
+      <a href="#pricing" data-i18n="nav.pricing">Planos</a>
+      <a href="#download" data-i18n="nav.download">Baixar</a>
+      <a href="#download" class="btn btn-primary" data-i18n="nav.getApp">Obter o app</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 data-i18n="hero.title">Perda de peso que cabe na sua rotina</h1>
+          <p data-i18n="hero.subtitle">Planos personalizados, micro-hábitos e acompanhamento inteligente — sincronize com Apple Health ou Google Fit.</p>
+          <div class="hero-ctas">
+            <a href="#download" class="btn btn-primary" data-i18n="hero.ctaPrimary">Baixar agora</a>
+            <a href="#how-it-works" class="btn btn-secondary" data-i18n="hero.ctaSecondary">Como funciona</a>
+          </div>
+          <ul class="trust">
+            <li data-i18n="hero.trust1">✔ Personalização com base no seu histórico</li>
+            <li data-i18n="hero.trust2">✔ Integração com wearables</li>
+            <li data-i18n="hero.trust3">✔ Privacidade e segurança de dados</li>
+          </ul>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/hero-illustration.svg" alt="Ilustração do app Shape+" class="hero-illustration" />
+          <div class="screenshots">
+            <img src="assets/screenshot1.jpg" alt="Tela 1" />
+            <img src="assets/screenshot2.jpg" alt="Tela 2" />
+            <img src="assets/screenshot3.jpg" alt="Tela 3" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- rest of content omitted for brevity; will use existing styles.js files -->
+    <section id="features" class="features section">
+      <div class="container">
+        <h2 data-i18n="features.title">A ferramenta completa para perder peso</h2>
+        <p class="subtitle" data-i18n="features.subtitle">Recursos pensados para acompanhar suas metas — com ciência e simplicidade.</p>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3 data-i18n="features.personalized">Plano personalizado</h3>
+            <p data-i18n="features.personalizedDesc">Plano nutricional e metas baseadas em seus dados, com ajuste automático conforme você progride.</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="features.microhabits">Micro-hábitos</h3>
+            <p data-i18n="features.microhabitsDesc">Hábitos diários fáceis de seguir que se acumulam em grandes resultados ao longo do tempo.</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="features.quickLog">Registro rápido de refeições</h3>
+            <p data-i18n="features.quickLogDesc">Entrada rápida, scanner de código de barras e banco de dados de alimentos confiável.</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="features.sync">Sincronize com seus dispositivos</h3>
+            <p data-i18n="features.syncDesc">Compatível com Apple Health, Google Fit e muitos wearables para métricas automáticas.</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="features.progress">Progresso visual</h3>
+            <p data-i18n="features.progressDesc">Gráficos de peso, metas e coortes—fácil de entender o avanço.</p>
+          </article>
+          <article class="feature-card">
+            <h3 data-i18n="features.security">Proteção de dados</h3>
+            <p data-i18n="features.securityDesc">Criptografia, políticas claras de privacidade e opções para exportar/excluir seus dados.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how section">
+      <div class="container">
+        <h2 data-i18n="how.title">Como funciona</h2>
+        <ol class="how-steps">
+          <li data-i18n="how.step1"><strong>Onboarding rápido:</strong> responda um pequeno questionário.</li>
+          <li data-i18n="how.step2"><strong>Plano inicial:</strong> calorias alvo e micro-hábitos.</li>
+          <li data-i18n="how.step3"><strong>Registre e sincronize:</strong> registre refeições ou conecte seu wearable.</li>
+          <li data-i18n="how.step4"><strong>Feedback diário:</strong> notificações e recomendações adaptativas.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing section">
+      <div class="container">
+        <h2 data-i18n="pricing.title">Planos</h2>
+        <p class="subtitle" data-i18n="pricing.subtitle">Comece grátis. Atualize quando quiser.</p>
+        <div class="pricing-grid">
+          <div class="plan">
+            <h3 data-i18n="pricing.free">Grátis</h3>
+            <p class="price">R$ 0 / mês</p>
+            <ul>
+              <li data-i18n="pricing.free1">Plano básico</li>
+              <li data-i18n="pricing.free2">Registro de refeições</li>
+              <li data-i18n="pricing.free3">Acompanhamento de peso</li>
+            </ul>
+            <a class="btn btn-outline" href="#download" data-i18n="pricing.startFree">Começar grátis</a>
+          </div>
+          <div class="plan plan-popular">
+            <h3 data-i18n="pricing.premium">Premium</h3>
+            <p class="price">R$ 29,90 / mês</p>
+            <ul>
+              <li data-i18n="pricing.premium1">Tudo do Grátis</li>
+              <li data-i18n="pricing.premium2">Planos personalizados</li>
+              <li data-i18n="pricing.premium3">Sincronização avançada</li>
+            </ul>
+            <a class="btn btn-primary" href="#download" data-i18n="pricing.subscribe">Assinar Premium</a>
+          </div>
+          <div class="plan">
+            <h3 data-i18n="pricing.coaching">Coaching</h3>
+            <p class="price" data-i18n="pricing.contact">Sob consulta</p>
+            <ul>
+              <li data-i18n="pricing.coaching1">Coach dedicado</li>
+              <li data-i18n="pricing.coaching2">Plano alimentar e treino</li>
+              <li data-i18n="pricing.coaching3">Sessões semanais</li>
+            </ul>
+            <a class="btn btn-outline" href="mailto:contato@shapeplus.app?subject=Interesse%20Coaching" data-i18n="pricing.contactBtn">Quero saber mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <div class="container">
+        <h2 data-i18n="testimonials.title">O que os usuários dizem</h2>
+        <div class="testimonials-grid">
+          <blockquote>
+            “Com micro-hábitos eu consegui perder 6kg em 3 meses sem radicalizar a dieta.” <cite>— Maria, 32</cite>
+          </blockquote>
+          <blockquote>
+            “A sincronização com meu relógio facilitou muito o tracking das calorias gastas.” <cite>— João, 28</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="download section">
+      <div class="container download-inner">
+        <div class="download-copy">
+          <h2 data-i18n="download.title">Pronto para começar?</h2>
+          <p data-i18n="download.subtitle">Baixe o Shape+ e comece sua jornada de perda de peso sustentável — disponível para iOS e Android.</p>
+          <div class="badges">
+            <a href="#" id="appStoreLink"><img src="assets/app-store-badge.png" alt="App Store" /></a>
+            <a href="#" id="playStoreLink"><img src="assets/google-play-badge.png" alt="Google Play" /></a>
+          </div>
+          <p class="small"><a href="#" id="betaLink" data-i18n="download.beta">Prefere testar em beta? Inscreva-se aqui</a></p>
+        </div>
+        <form id="leadForm" class="lead-form" action="#" method="post" onsubmit="return submitLead(event)">
+          <h3 data-i18n="lead.title">Receba o link de download</h3>
+          <input type="email" name="email" id="email" placeholder="Seu melhor e-mail" required />
+          <select name="platform" id="platform">
+            <option value="ios">iOS</option>
+            <option value="android">Android</option>
+            <option value="both">Ambos</option>
+          </select>
+          <button class="btn btn-primary" type="submit" data-i18n="lead.send">Enviar link</button>
+          <p class="form-note" data-i18n="lead.note">Enviaremos o link de download e novidades para o seu e-mail.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand-legal">
+        <img src="assets/logo.png" alt="Shape+ logo" class="logo-sm" />
+        <p>© <span id="year"></span> Shape+. Todos os direitos reservados.</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html" data-i18n="footer.privacy">Privacidade</a>
+        <a href="terms.html" data-i18n="footer.terms">Termos</a>
+        <a href="mailto:contato@shapeplus.app" data-i18n="footer.contact">Contato</a>
+      </div>
+    </div>
+  </footer>
+  <div class="modal" id="downloadModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">×</button>
+      <h3 data-i18n="modal.title">Como deseja obter o app?</h3>
+      <p data-i18n="modal.subtitle">Escolha sua plataforma — você será redirecionado para a loja correspondente ou receberá instruções para instalar o APK.</p>
+      <div class="modal-actions">
+        <a href="#" id="modalAppStore" class="btn btn-outline">App Store (iOS)</a>
+        <a href="#" id="modalPlayStore" class="btn btn-outline">Google Play (Android)</a>
+        <a href="#" id="modalApk" class="btn btn-outline">Receber APK por e-mail</a>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
